@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Saved models (too large for GitHub)
+saved_models/*.pth
+saved_models/*.pkl
+
+# Keep feature_cols.json
+!saved_models/feature_cols.json
+
+# Results (keep JSONs, ignore large files)
+results/
+
+# Plots (regenerated on run)
+plots/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+{
+  "LSTM": {
+    "model": "LSTM",
+    "t_stat": 3.41500136555154,
+    "t_pval": 0.0013814771169910328,
+    "w_stat": 149.0,
+    "w_pval": 9.07807647597472e-05,
+    "significant": true
+  },
+  "GRU": {
+    "model": "GRU",
+    "t_stat": 3.3048786729107147,
+    "t_pval": 0.0018957127797765536,
+    "w_stat": 185.5,
+    "w_pval": 0.0014963120603100955,
+    "significant": true
+  },
+  "Transformer": {
+    "model": "Transformer",
+    "t_stat": 3.0962490468130834,
+    "t_pval": 0.003405159868870498,
+    "w_stat": 212.5,
+    "w_pval": 0.004720025442558507,
+    "significant": true
+  }
+}
